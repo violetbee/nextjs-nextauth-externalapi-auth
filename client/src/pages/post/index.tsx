@@ -1,8 +1,4 @@
-import type {
-  GetServerSidePropsContext,
-  InferGetServerSidePropsType,
-} from 'next';
-import { http, setToken } from '../../request/config/axios';
+import { http } from '../../request/config/axios';
 import { Box } from '@chakra-ui/react';
 import { useQuery } from '@tanstack/react-query';
 import { UseQuery } from '@/utils/query';
